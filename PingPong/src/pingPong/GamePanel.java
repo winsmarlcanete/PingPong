@@ -5,7 +5,7 @@ import java.awt.event.*;
 import java.util.*;
 import javax.swing.*;
 
-public class GamePanel {
+public class GamePanel extends JPanel implements Runnable{
 	
 	GamePanel(){
 		
@@ -36,7 +36,7 @@ public class GamePanel {
 		public void keyPressed(KeyEvent e) {
 			
 		}
-		public void keyRelease(KeyEvent e) {
+		public void keyReleased(KeyEvent e) {
 			
 		}
 	}
